@@ -1,0 +1,61 @@
+let cars = [
+	"Toyota Corolla",
+	"Volkswagen Golf",
+	"BMW 3 Series",
+	"Mercedes-Benz C-Class",
+	"Audi A4",
+	"Ford Focus",
+	"Honda Civic",
+	"Hyundai Tucson",
+	"Kia Sportage",
+	"Tesla Model 3",
+	"Nissan Qashqai",
+	"Mazda CX-5",
+	"Peugeot 308",
+	"Renault Clio",
+	"Opel Astra",
+	"Skoda Octavia",
+	"Seat Leon",
+	"Fiat 500",
+	"Volvo XC60",
+	"Porsche 911",
+	"Chevrolet Camaro",
+	"Jeep Wrangler",
+	"Land Rover Defender",
+	"Mini Cooper",
+	"Dacia Duster",
+	"Suzuki Swift",
+	"Mitsubishi Outlander",
+	"Subaru Forester",
+	"Lexus RX",
+	"Alfa Romeo Giulia",
+	"Citroen C3",
+	"Toyota RAV4",
+	"Volkswagen Passat",
+	"BMW X5",
+	"Mercedes-Benz GLC",
+	"Audi Q5",
+	"Ford Mustang",
+	"Honda CR-V",
+	"Hyundai i30",
+	"Kia Ceed",
+	"Tesla Model Y",
+	"Nissan Juke",
+	"Mazda 3",
+	"Peugeot 208",
+	"Renault Megane",
+	"Opel Corsa",
+	"Skoda Superb",
+	"Seat Ibiza",
+	"Fiat Panda",
+	"Volvo S60",
+];
+
+for (let i = 0; i < cars.length; i++) {
+	let firstLetter = cars[i][0].toLowerCase();
+
+	if (firstLetter === "a") {
+		continue;
+	}
+	console.log(cars[i]);
+}

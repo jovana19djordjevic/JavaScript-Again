@@ -1,0 +1,47 @@
+.info {
+	display: none;
+	width: 200px;
+	height: 100px;
+	background-color: aquamarine;
+	color: black;
+	font-size: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#colorBox {
+	width: 200px;
+	height: 200px;
+	background-color: lightgray;
+}
+
+#cards {
+	width: 50px;
+	height: 75px;
+	background-color: beige;
+	color: burlywood;
+	display: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.show {
+	display: flex;
+}
+
+#cards.show {
+	display: flex;
+}
+
+.boxes {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	background-color: cornsilk;
+	color: rgb(92, 91, 91);
+}
